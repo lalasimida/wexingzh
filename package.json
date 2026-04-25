@@ -1,0 +1,12 @@
+{
+  "name": "wechat-openid-tool",
+  "version": "1.0.0",
+  "description": "微信 OpenID 获取工具",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
