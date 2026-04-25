@@ -82,6 +82,7 @@ python main.py
 2. 确认模板 ID 正确
 3. 确认 OpenID 正确（必须是公众号的关注用户）
 4. 服务号每月有模板消息配额限制
+5. 使用node指令：node get-user-list.js可以直接获得openid，如果没有的话请尝试分支上的获取openid程序。
 
 ### Q: 如何获取用户OpenID？
 
