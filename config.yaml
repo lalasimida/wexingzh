@@ -1,0 +1,37 @@
+# 微信公众号配置
+# 需要准备以下信息：
+# 1. AppID - 公众号应用ID（登录微信公众平台 -> 设置与开发 -> 基本配置）
+# 2. AppSecret - 公众号应用密钥（同上页面获取）
+# 3. TemplateID - 消息模板ID（登录微信公众平台 -> 功能 -> 模板消息 -> 添加模板）
+# 4. ToUser - 接收消息的用户的 OpenID（需要用户关注公众号后获取）
+wechat:
+  appid: "wxddf8924d11d83b6c"
+  appsecret: "9624b08986abc10d1cb30a25b6dc64e2"
+  template_id: ""
+  touser: ""
+
+# 定时任务配置
+scheduler:
+  hour: 9
+  minute: 0
+
+# 新闻源配置
+news:
+  sources:
+    - name: "TechCrunch AI"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    - name: "VentureBeat AI"
+      url: "https://venturebeat.com/category/ai/feed/"
+    - name: "MIT Tech Review"
+      url: "https://www.technologyreview.com/feed/"
+    - name: "The Verge AI"
+      url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    - name: "ArXiv cs.AI"
+      url: "https://arxiv.org/rss/cs.AI"
+
+  # 每次推送的新闻数量
+  max_items: 5
+
+# 应用配置
+app:
+  timezone: "Asia/Shanghai"
